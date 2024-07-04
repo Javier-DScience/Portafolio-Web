@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #000000;
+    color: #f6f6f6;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 2% 0% 0% 15%;
+
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+.headerLink {
+    font-family: "Krona One", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #083D77;
+    text-decoration: none;
+}
+
+strong{
+    color: #083D77;
+}
+
+.tituloDestacar{
+    color:#083D77;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    padding: 6% 15%;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.presentacion_contenido {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.primerParrafo {
+    font-size: 2.25rem;
+    font-family: "Krona One", sans-serif;
+}
+
+.segundoParrafo {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botones_redes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.botones_presentacion {
+    width: 50%;
+    text-align: center;
+    padding: 21.5px 0px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: black;
+    color: #f6f6f6;
+    border: 2px solid #083D77;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.subtitulo_botones {
+    font-size: 28px;
+    color: #083D77;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+}
+
+.botones_presentacion:hover {
+    background-color: #272727;
+}    
+
+.mi_imagen {
+    width: 50%;
+}
+
+.texto_footer {
+    background-color: #083D77;
+    display: flex;
+    justify-content: center;
+    font-family: "Krona One", sans-serif;
+    font-size: 28px;
+    color: #f6f6f6;
+    padding: 24px;
+}
+
+@media (max-width: 1200px) {
+    
+    .headerLink {
+        justify-content: center;
+    }
+    
+    .header {
+        padding: 10%;
+    }
+    
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion_contenido {
+        width: auto;
+    }
+}
