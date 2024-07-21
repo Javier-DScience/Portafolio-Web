@@ -134,4 +134,10 @@ strong{
     .presentacion_contenido {
         width: auto;
     }
+
+    .mi_imagen{
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
 }
